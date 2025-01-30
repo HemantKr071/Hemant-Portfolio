@@ -19,9 +19,9 @@ const Home = () => {
             <p className="max-w-[500px] mb-9 text-white/80">Bringing ideas to life with expertise, creativity, and the determination to turn challenges into opportunities and success stories.
             </p>
             {/* Button and Socials */}
-            <div>
+            <div className="">
             <Link href={"https://drive.google.com/file/d/1Q5RyjAd2oooifVGtgHHph0u3BsEeP0Qy/view?usp=drive_link"}>
-              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+              <Button variant="outline" size="lg" className="uppercase flex  items-center gap-2">
                 <span>Download Resume</span>
                 <FiDownload className="text-xl"/>
               </Button>

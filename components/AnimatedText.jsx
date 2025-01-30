@@ -57,7 +57,7 @@ const AnimatedText = ({ text }) => {
     <div className="relative inline-block">
       <motion.h1
         id="typewriter"
-        className="text-7xl font-bold inline-block overflow-hidden whitespace-nowrap"
+        className="md:text-7xl text-5xl font-bold md:inline-block overflow-hidden whitespace-nowrap"
         initial="hidden"
         animate="visible"
         variants={{
