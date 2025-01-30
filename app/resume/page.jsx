@@ -17,7 +17,8 @@ import {
   SiMysql,
   SiTypescript,
   SiPrisma,
-  SiExpress
+  SiExpress,
+  SiHono
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -134,6 +135,11 @@ const skills = {
       icon: <SiPrisma />,
       name: "Prisma ORM",
     },
+    {
+      icon: <SiHono />,
+      name: "Hono",
+    },
+    
 
     // Tools
     {
