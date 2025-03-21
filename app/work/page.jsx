@@ -15,6 +15,17 @@ const projects = [
     {
         num:'01',
         category:"Full Stack",
+        title:"LogoGenius",
+        description:"Logo Genius is an AI-powered logo generation tool that helps you create stunning logos in seconds. Customize your design, save it, and bring your brand to life effortlessly!",
+        stack:[{name:"TypeScript"},{name:"Next.Js"},{name:"Clerk"},{name:"Hugging Face"},{name:"FireBase"},{name:"Tailwind CSS"},],
+        image:"/assets/LogoGenius.png",
+        live:"https://logogenius.heyhemant.tech/",
+        github:"https://github.com/HemantKr071/LogoGenius",
+       
+    },
+    {
+        num:'02',
+        category:"Full Stack",
         title:"Blog it",
         description:" BlogIt is a blogging platform where users can create, upload, and read blogs written by others. It features user authentication, a rich text editor for writing blogs, and an intuitive interface for browsing and exploring diverse content. With BlogIt, users can share their ideas, discover stories, and connect with others through their writings.",
         stack:[{name:"TypeScript"},{name:"React.Js"},{name:"Hono"},{name:"Cloudfare"},{name:"Prisma ORM"},{name:"MongoDB"},{name:"Tailwind CSS"},],
@@ -24,7 +35,7 @@ const projects = [
        
     },
     {
-        num:'02',
+        num:'03',
         category:"Full Stack",
         title:"BookMyHotel",
         description:" BookMyHotel is a fully deployed hotel booking application built using the MERN stack, offering a secure and user-friendly experience with a modern and responsive design. ",
@@ -35,7 +46,7 @@ const projects = [
        
     },
     {
-        num:'03',
+        num:'04',
         category:"Full Stack",
         title:"RealTime Spreadsheet Collaboration",
         description:" The Real-Time Spreadsheet App is an interactive web application designed to allow multiple users to collaborate on a spreadsheet in realtime.The project emphasizes the implementation of core features such as live updates, user presence tracking, and efficient data management. ",
