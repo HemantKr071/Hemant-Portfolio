@@ -34,8 +34,19 @@ const projects = [
         github:"https://github.com/HemantKr071/Blog.it",
        
     },
-    {
+     {
         num:'03',
+        category:"Frontend",
+        title:"Agency Portfolio",
+        description:" A modern, responsive digital agency portfolio website built with React, Tailwind CSS and Framer Motion. This portfolio showcases agency services, projects, and team information with a clean, professional design and smooth user experience.",
+        stack:[{name:"JavaScript"},{name:"React.Js"},{name:"Tailwind CSS"},{name:"Framer Motion"}],
+        image:"/assets/AgencyPortfolio.png",
+        live:"https://agency-portfolio-ruby.vercel.app/",
+        github:"https://github.com/HemantKr071/Agency_Portfolio",
+       
+    },
+    {
+        num:'04',
         category:"Full Stack",
         title:"BookMyHotel",
         description:" BookMyHotel is a fully deployed hotel booking application built using the MERN stack, offering a secure and user-friendly experience with a modern and responsive design. ",
@@ -46,7 +57,7 @@ const projects = [
        
     },
     {
-        num:'04',
+        num:'05',
         category:"Full Stack",
         title:"RealTime Spreadsheet Collaboration",
         description:" The Real-Time Spreadsheet App is an interactive web application designed to allow multiple users to collaborate on a spreadsheet in realtime.The project emphasizes the implementation of core features such as live updates, user presence tracking, and efficient data management. ",

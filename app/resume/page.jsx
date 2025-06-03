@@ -22,6 +22,7 @@ import {
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
+import { TbBrandFramerMotion } from "react-icons/tb";
 
 const about = {
     title:"About me",
@@ -121,6 +122,10 @@ const skills = {
     {
       icon: <SiTailwindcss />,
       name: "Tailwind CSS",
+    },
+    {
+      icon: <TbBrandFramerMotion />,
+      name: "Framer Motion",
     },
 
     // Databases
