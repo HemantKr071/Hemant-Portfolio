@@ -20,7 +20,7 @@ const Home = () => {
             </p>
             {/* Button and Socials */}
             <div className="">
-            <Link href={"https://drive.google.com/file/d/1sNNc2OnkSm6xZ9-8ol8OIYVWnA-7PhPe/view?usp=drive_link"}>
+            <Link href={"https://drive.google.com/file/d/1seEGDehs6smIG_dgraFSlcNC1gTFFhfr/view?usp=sharing"}>
               <Button variant="outline" size="lg" className="uppercase flex  items-center gap-2">
                 <span>Download Resume</span>
                 <FiDownload className="text-xl"/>
